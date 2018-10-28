@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contacts.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <section id='header'>
+        <div class="header">
+            <div class='logo'>
+                <img id="logo-pic" src='img/logo.png'>
+                <span>Educational hub abc</span>
+                <div id="mobile-menu" onclick=showNav()>
+                    <img src="img/burger.png" alt=""> <span>Меню</span>
+                </div>
+            </div>
+            <div class='navigation'>
+                <div class='nav-item'>
+                    <a href="#">Главная</a>
+                </div>
+                <div class='nav-item'>
+                    <a href="#">Услуги</a>
+                </div>
+                <div class='nav-item'>
+                    <a href="#">Цены</a>
+                </div>
+                <div class='nav-item'>
+                    <a href="#">Новости</a>
+                </div>
+                <div class='nav-item'>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="container">
+            <div class="contacts-header">
+                Контакты
+            </div>
+            <div class="contacts">
+                <div class="contacts-item">
+                    <div class="contacts-item-header">Нaше Расположение</div>
+                    <span>Киев, м. Лыбедская, <br>
+                        ул. Ивана Кудри, 5, оф. 205</span>
+                </div>
+                <div class="contacts-item">
+                    <div class="contacts-item-header">Звоните нам</div>
+                    <div class="contacts-item-messengers">
+                        <img src="img/tele-pic.png" alt="">
+                        <img src="img/whatsup-pic.png" alt="">
+                        <img src="img/viber-pic.png" alt="">
+                    </div>
+                    +38 (063) 737 70 63
+                </div>
+                <div class="contacts-item">
+                    <div class="contacts-item-header">Нaши социальные сети</div>
+                    <div class="contacts-item-social">
+                        <a href="#"><img src="img/insta-pic.png" alt=""></a>
+                        <a href="#"><img src="img/fb-pic.png" alt=""></a>
+                        <a href="#"><img src="img/twitter-pic.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="contacts-item">
+                    <div class="contacts-item-header">Дополнительные средства связи</div>
+                    <div class="contacts-item-text">
+                        <span>
+                            <b>Skype:</b> <br> testloggin
+                        </span>
+                        <span>
+                            <b>Email:</b> <br> educationalhub-abc@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts-map">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.4288049451065!2d30.526818115958715!3d50.414481879470486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfd192bcf799%3A0x9e9556afc4d7f232!2sEducational+hub+ABC!5e0!3m2!1sru!2sua!4v1538646344404"
+                width="900" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id='contact-form'>
+        <div class="container">
+            <div class="contact-form-header">
+                <div>
+                    <h1>Узнайте больше</h1>
+                    <span>Закажите обратный звонок</span>
+                </div>
+
+            </div>
+            <div class="contact-form">
+                <input class="contact-form-input" placeholder="Name">
+                <input class="contact-form-input" placeholder="E-mail">
+                <textarea class="contact-form-input" placeholder="What do you want to know?"></textarea>
+                <a href="#" class="button">Button</a>
+            </div>
+        </div>
+    </section>
+    <section id='footer'>
+        <div class="container">
+            <div class="logo">
+                <img src='img/logo.png'>
+                <span><b>Educational hub «abc»</b></span>
+            </div>
+            <div class="footer-info">
+                <div class="footer-info-block">
+                    <span>Быстрые ссылки</span>
+                    <div class='footer-info-nav'>
+
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Улслуги</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-info-block">
+                    <span>Контакты</span>
+                    <ul>
+                        <li><img src='img/location-pic.png' />
+                            Киев, м. Лыбедская,
+                            ул. Ивана Кудри 5, оф. 205
+                        </li>
+                        <li><img src='img/phone-pic.png' />+38 (063) 737 7063</li>
+                        <li><img src='img/location-pic.png' />educationalhub-abc.com.ua</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+.contacts-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+.contacts-item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px 0px;
+    box-shadow: 0px 8px 25px lightgrey;
+    border-radius: 8px;
+    width: 350px;
+    height: 120px;
+    text-align: center;
+}
+
+.contacts-item:nth-child(3), .contacts-item:nth-child(4) {
+    width: 500px;
+}
+
+.contacts-item-header {
+    font-weight: bold;
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+.contacts-item-text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-left: 40px;
+}
+
+.contacts-item-messengers {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacts-item-social {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contacts-map {
+    padding: 40px;
+}
+
+.map {
+    margin: 0px auto;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 5px 25px lightgrey;
+}
+
+
+
+
+@media(max-width: 668px) {
+    .contacts-header {
+        font-size: 80px;
+    }
+    .contacts-item {
+        font-size: 60px;
+        width: 900px;
+        height: 480px;
+        border-radius: 20px;
+    }
+    .contacts-item:nth-child(3), .contacts-item:nth-child(4) {
+        width: 900px;
+        height: 480px;
+    }
+    .contacts-item-header {
+        width: 700px;
+        font-size: 80px;
+    }
+    .contacts-item-text {
+        width: 900px;
+        padding: 0px;
+    }
+    .contacts-item-messengers {
+        width: 600px;
+    }
+    .contacts-item-social {
+        width: 600px;
+    }
+    .contacts-item img {
+        height: 150px;
+    }
+}
